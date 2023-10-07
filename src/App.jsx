@@ -1,17 +1,19 @@
 import React from 'react';
 import Header from './Component/Header/Header';
-import { NavLink , Route , Routes} from 'react-router-dom';
-import Institucional from './Component/Institucional/Institucional';
+import {Route, Routes } from 'react-router-dom';
+import Main from './Component/Main/Main';
+import Footer from './Component/Footer/Footer';
 
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <Routes>
-                <Route path='/' element={<Institucional/>}/>
-                         
+        <Route path='/' element={<Main />} />
+
       </Routes>
+      <Footer />
     </div>
   );
 };

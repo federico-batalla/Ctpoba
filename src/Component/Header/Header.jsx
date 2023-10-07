@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { NavLink , Route , Routes} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <>
-            <h1>header</h1>
+            <p>header</p>
             <nav>
-                <NavLink to="/">Institucional</NavLink>
-                <NavLink to="/contacto">contatco</NavLink>
-                <NavLink to="/acerca-de">Acerca-de</NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/Institucional">Institucional</NavLink>
+                <NavLink to="/Documentaciono">Documentacion</NavLink>
+                <NavLink to="/Novedades">Novedades</NavLink>
+                <NavLink to="/Contacto">Contacto</NavLink>
             </nav>
 
         </>
