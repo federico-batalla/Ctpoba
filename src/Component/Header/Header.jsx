@@ -2,6 +2,8 @@ import React from 'react';
 import Ingreso from '../Ingreso/Ingreso';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
+import Logo from './Logo CTPOBA.png'
+import { RxCaretDown } from "react-icons/rx";
 
 const Header = () => {
     return (
@@ -14,15 +16,20 @@ const Header = () => {
             </div>
 
             <header>
-                <div className='contenedor'>
-                    <p>menu</p>
-                    <nav>
-                        <NavLink to="/">Home</NavLink>
-                        <NavLink to="/Institucional">Institucional</NavLink>
-                        <NavLink to="/Documentaciono">Documentacion</NavLink>
-                        <NavLink to="/Novedades">Novedades</NavLink>
-                        <NavLink to="/Contacto">Contacto</NavLink>
-                    </nav>
+                <div className='contenedor header'>
+                    <div className="contenedor-logo">
+                        <img src={Logo} alt="" />
+                    </div>
+                    
+                        <nav className='contenedor-nav'>
+                            <NavLink className='link' to="/">Home</NavLink>
+                            <NavLink className='link'to="/Institucional">Institucional <RxCaretDown /> </NavLink>
+                            <NavLink className='link'to="/Documentaciono">Documentacion <RxCaretDown /></NavLink>
+                            <NavLink className='link'to="/Novedades">Novedades <RxCaretDown /></NavLink>
+                            <NavLink className='link'to="/Contacto">Contacto <RxCaretDown /></NavLink>
+                        </nav>
+                    
+
 
                 </div>
 

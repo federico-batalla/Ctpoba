@@ -14,7 +14,7 @@
 
 .btningreso{
     display: flex;
-    margin-right: 100px;
+    
     
 }
 
@@ -25,4 +25,5 @@
     padding: 0 40px;
     border: 0;
     text-align: center;
+    
 }
