@@ -1,0 +1,21 @@
+.Dpto {
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dpto .contimg{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.Dpto .contimg img{
+    width: 30%;
+    
+    display: block;
+}
