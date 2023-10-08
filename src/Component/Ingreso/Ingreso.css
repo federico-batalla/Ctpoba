@@ -2,6 +2,27 @@
     width: 100%;
     display: flex;
     justify-content:space-between;
-    border: 3px solid red;    
+    
+      
 }
 
+.contenedor-header p{
+
+    margin: 15px 0 15px 0;
+    font-size: 13px;
+}
+
+.btningreso{
+    display: flex;
+    margin-right: 100px;
+    
+}
+
+.btningreso button{
+    display: block;
+    background-color: #2984ab;
+    color: white;
+    padding: 0 40px;
+    border: 0;
+    text-align: center;
+}

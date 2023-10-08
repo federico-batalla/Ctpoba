@@ -6,9 +6,15 @@ import './Header.css'
 const Header = () => {
     return (
         <>
+            <div className="ingreso">
+                <div className="contenedor">
+                    <Ingreso />
+                </div>
+
+            </div>
+
             <header>
                 <div className='contenedor'>
-                    <Ingreso />
                     <p>menu</p>
                     <nav>
                         <NavLink to="/">Home</NavLink>
