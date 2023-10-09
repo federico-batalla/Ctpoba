@@ -1,0 +1,20 @@
+.contenedorRS{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorRS a{
+    display: block;
+    color: #424242;
+    margin-left: 10px;
+}
+
+.contenedorRS a:hover{
+    
+    color: #fff;
+}
+
+.contenedorRS a svg{
+    width: 35px;
+    height: 35px
+}
