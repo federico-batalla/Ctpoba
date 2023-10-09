@@ -5,32 +5,39 @@ footer{
     padding: 30px 0;
 }
 
-footer .graficos{
+footer .cont-foot{
+    display: flex;
+}
+footer .cont-foot .graficos{
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: space-between;
 }
 
-footer .graficos .logo{
+footer .cont-foot .graficos .logo{
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-footer .graficos .logo img{
+footer .cont-foot .graficos .logo img{
     width: 150px;
 
 }
 
-footer .graficos .redes-sociales{
+footer .cont-foot .graficos .redes-sociales{
     margin-top: 15px;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-
+footer .cont-foot .graficos .datos
+{
+    display: flex;
+    width: 30%;
+}
 
 .icono{
     width: 50px;
