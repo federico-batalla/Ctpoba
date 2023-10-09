@@ -1,0 +1,10 @@
+footer{
+    background-color: #237394;
+    color: #ffff;
+    border-top: 5px solid #17485d;
+    padding: 30px 0;
+}
+
+footer .graficos .logo img{
+    width: 150px;
+}
