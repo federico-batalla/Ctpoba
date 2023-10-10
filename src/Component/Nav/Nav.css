@@ -15,10 +15,11 @@ nav{
     justify-content: space-around;
 }
 
-.menu-horizontal > li > .link{
+.menu-horizontal > li > a{
     display: block;
     padding: 15px 20px;
     text-decoration: none;
+    color: black;
 }
 
 .menu-horizontal > li{
@@ -49,22 +50,20 @@ nav{
 
 .menu-vertical li:hover{
     background-color: #fff;
-    color:#ffff;
     border-radius:5px;
    
 }
 
-.menu-vertical li .link{
+.menu-vertical li a{
     display: block;
-    
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 20px;
     text-decoration: none;
-}
-.link{
-    display: block;
-    margin-left: 40px;
-    text-decoration: none;
-    font-size: 18px;
-    outline: none;
     color: black;
+}
+
+svg{
+    margin-top:-4px;
+    
+    
+  
 }
