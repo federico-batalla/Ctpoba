@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    
+    
 }
 
 .Dpto .contimg{
@@ -13,9 +15,20 @@
     justify-content:center;
     align-items: center;
     
+    
 }
 
 .Dpto .contimg img{
     width: 30%;
     display: block;
+    margin-top: 10px;
+    
+}
+
+.Dpto .contitulo{
+    text-align: center;
+   
+    width: 100%;
+    height: 49%;
+    padding: 10px;
 }

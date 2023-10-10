@@ -15,7 +15,7 @@ const Departamentos = () => {
                 <div className="contedordpto">
                     <Dpto img={Programacion} titulo='Programacion'/>
                     <Dpto img={Elec} titulo='Electromecanica'/>
-                    <Dpto img={Eco} titulo='Economia'/>
+                    <Dpto img={Eco} titulo='Gestion y Adminsitracion de Organizaciones'/>
                     <Dpto img={Electronica} titulo='Electronica'/>
                     <Dpto img={Obra} titulo='Maestro Mayor de Obra'/>
                     

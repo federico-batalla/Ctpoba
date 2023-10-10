@@ -33,12 +33,33 @@ footer .cont-foot .graficos .redes-sociales{
     align-items: center;
 }
 
-footer .cont-foot .graficos .datos
-{
+footer .cont-foot .datos,
+footer .cont-foot .contacto{
     display: flex;
+    flex-direction: column;
     width: 30%;
+    text-align: left;
+    
+}
+
+footer .cont-foot  .datos h2,
+footer .cont-foot  .contacto h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+footer .cont-foot  .datos p,
+footer .cont-foot  .contacto p{
+    
+    color: #fff;
+    margin-top: 10px;
 }
 
 .icono{
     width: 50px;
+}
+
+.resaltar{
+    font-weight: bold;
+
 }

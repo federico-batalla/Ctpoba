@@ -5,13 +5,13 @@
 
 .contenedorRS a{
     display: block;
-    color: #424242;
+    color: #fff;
     margin-left: 10px;
 }
 
 .contenedorRS a:hover{
     
-    color: #fff;
+    color: #424242;
 }
 
 .contenedorRS a svg{

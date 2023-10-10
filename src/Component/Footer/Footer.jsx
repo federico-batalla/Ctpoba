@@ -23,11 +23,16 @@ const Footer = () => {
                         </div>
                         <div className='datos'>
                             <h2>Nuestro Colegio</h2>
-                            <p>Gdor. Paz 165 , Ushuaia, Tierra del Fuego</p>
-                            <p>Horario de atencion Presencial : de lunes a viernes de 8:00 Hs a 21:00 Hs</p>
+                            <p className='resaltar'>Gdor. Paz 165 , Ushuaia, Tierra del Fuego</p>
+                            <p>Horario de atencion Presencial</p>
+                            <p>lunes a viernes de 8:00 Hs a 21:00 Hs</p>
                         </div>
                         <div className='contacto'>
-
+                            <h2>Vias de Contacto</h2>
+                            <p><span className='resaltar'>Atencion Telefonica:</span> Lunes a viernes 8hs a 21hs</p>
+                            <p><span className='resaltar'>Telefono Fijo:</span> 2901 - 445660</p>
+                            <p><span className='resaltar'>Correo Electronico Secretaria:</span> ctpobarko.sec@tdf.edu.ar</p>
+                            <p>Solicitamos redacte un único correo, el mismo será derivado al sector correspondiente</p>
                         </div>
                     </div>
                 </div>
