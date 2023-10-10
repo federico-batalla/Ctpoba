@@ -22,6 +22,8 @@ nav{
     color: black;
 }
 
+
+
 .menu-horizontal > li{
     border-top: 1px solid transparent;
 }
@@ -47,13 +49,20 @@ nav{
     
 }
 
+.menu-vertical li{
+    border: 1px solid transparent;
+}
 
 .menu-vertical li:hover{
-    background-color: #fff;
+    background-color: #237394;
+    border: 1px solid #17485d;
+    
     border-radius:5px;
    
 }
-
+.menu-vertical li a:hover{
+    color: white;
+}
 .menu-vertical li a{
     display: block;
     padding: 15px 15px 15px 20px;
