@@ -1,0 +1,18 @@
+.Pagdpto .titulo{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.Pagdpto .titulo h2{
+    font-size: 50px;
+    color: #17485d;
+    margin-bottom: 40px;
+    
+
+}
+
+.Pagdpto .titulo p{
+    font-size: 24px;
+    color: #2984ab;
+
+}

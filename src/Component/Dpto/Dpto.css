@@ -1,33 +1,44 @@
 .Dpto {
     width: 19%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
+   
     
     
 }
 
-.Dpto .contimg{
+
+
+.Dpto .contimg a{
+    
     width: 100%;
     margin-bottom: 10px;
     display: flex;
     justify-content:center;
     align-items: center;
     
-    
 }
 
-.Dpto .contimg img{
+.Dpto .contimg a img:hover{
+    transform: scale(1.3);
+}
+
+.Dpto .contimg a img{
     width: 30%;
     display: block;
-    margin-top: 10px;
+    margin: 10px 0 10px;
+    transition: 0.3s;
+    object-fit: cover;
+    
+
     
 }
 
 .Dpto .contitulo{
     text-align: center;
-   
     width: 100%;
     height: 49%;
     padding: 10px;
