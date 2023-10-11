@@ -4,12 +4,19 @@
     background-color:#e2e4e6;
     
 }
-
+.contenedor-logo{
+    text-align: center;
+}
 
 .contenedor-logo img{
     width: 150px;
-    margin:15px 0
+    margin:15px 0 0 0;
 }
+
+.contenedor-logo p{
+    font-style: italic;
+}
+
 
 .header{
     display: flex;
