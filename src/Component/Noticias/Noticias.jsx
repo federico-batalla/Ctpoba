@@ -5,7 +5,7 @@ import './Noticias.css'
 const Noticias = ({ articulos }) => {
 
     return (
-        <div className="contenedor">
+        
             <div className='article-list'>
                 {articulos.map(articulo => (
                     <div className="article-container" key={articulo.id}>
@@ -24,7 +24,7 @@ const Noticias = ({ articulos }) => {
 
 
             </div>
-        </div>
+        
     )
 };
 
