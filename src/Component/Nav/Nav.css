@@ -51,6 +51,7 @@ nav{
 
 .menu-vertical li{
     border: 1px solid transparent;
+    font-size: 40px;
 }
 
 .menu-vertical li:hover{
