@@ -17,6 +17,7 @@ const Nav = () => {
                         <li><NavLink  to="/Documentacion">Marco Legal </NavLink></li>
                         <li><NavLink to="/Novedades">Autoridades </NavLink></li>
                         <li><NavLink  to="/Contacto">Departamentos </NavLink></li>
+                        
                     </ul>
 
                 </li>

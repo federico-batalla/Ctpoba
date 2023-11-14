@@ -1,0 +1,42 @@
+.institucional{
+    margin-top: 20px;
+    background-color: #237394;
+    padding: 50px 0;
+    border-top:  5px  solid #17485d;
+    border-bottom:  5px  solid #17485d;
+}
+
+.institucional .titulo{
+    text-align: center;
+    
+}
+
+.institucional .titulo h2{
+    font-size: 40px;
+    color: white;
+    font-family: "Titillium Web";
+}
+
+
+.cont-titulo{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.cont-titulo h3{
+    font-size: 30px;
+    display: block;
+    margin: 40px 0;
+}
+
+
+
+.cont-titulo .contenido p{
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cont-titulo .contenido p span{
+    font-size: 25px;
+}

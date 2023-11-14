@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import Logo from './logobyn.png'
-import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+import { AiFillFacebook, AiFillInstagram, AiFillYoutube, AiOutlineCopyrightCircle } from "react-icons/ai";
 import IconoRS from '../IconoRS/IconoRS';
 
 
@@ -35,6 +35,11 @@ const Footer = () => {
                             <p>Solicitamos redacte un único correo, el mismo será derivado al sector correspondiente</p>
                         </div>
                     </div>
+
+                </div>
+                <div className="copyrigth">
+                    <p><AiOutlineCopyrightCircle /> Copyright 2023, Batalla Federico - Elias Gomez</p>
+                    
                 </div>
             </footer>
         </>
