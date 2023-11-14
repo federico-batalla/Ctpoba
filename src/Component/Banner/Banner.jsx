@@ -7,11 +7,6 @@ import fotoEscuela3 from '../../imagenes/fotoEscuela3.jpg';
 
 const Banner = () => {
     return (
-<<<<<<< HEAD
-        <div>
-            <p>Banner j</p>
-        </div>
-=======
       <div>
          <Carousel data-bs-theme="dark">
       <Carousel.Item>
@@ -51,7 +46,6 @@ const Banner = () => {
       </Carousel.Item>
     </Carousel>
     </div>
->>>>>>> 78ade69cb83b0ec30dceba98e627be25c7a798e4
     );
 };
 
