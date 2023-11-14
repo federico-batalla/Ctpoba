@@ -2,7 +2,7 @@ import React from 'react';
 
 const Noticias = () => {
     return (
-        <div>
+        <div className="containerNoticias">
             <p>Noticias</p>
         </div>
     );
