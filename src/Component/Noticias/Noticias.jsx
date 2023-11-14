@@ -5,10 +5,6 @@ import './Noticias.css'
 const Noticias = ({ articulos }) => {
 
     return (
-<<<<<<< HEAD
-        <div className="containerNoticias">
-            <p>Noticias</p>
-=======
 
         <div className='article-list'>
             {articulos.map(articulo => (
@@ -30,7 +26,6 @@ const Noticias = ({ articulos }) => {
             ))}
 
 
->>>>>>> fede
         </div>
 
     )
