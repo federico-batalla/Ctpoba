@@ -4,7 +4,7 @@
 }
 
 .Pagdpto .titulo h2{
-    font-size: 50px;
+    font-size: 25px;
     color: #17485d;
     margin-bottom: 40px;
     
@@ -15,4 +15,8 @@
     font-size: 24px;
     color: #2984ab;
 
+}
+.Pagdpto .contenedorPerfil{
+    display: flex;
+    justify-content: center;
 }

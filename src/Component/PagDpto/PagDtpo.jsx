@@ -1,5 +1,9 @@
 import React from 'react';
-import './PagDpto.css'
+import Dpto from '../Dpto/Dpto';
+import './PagDpto.css';
+import alcance from '../../imagenes/alcance.png';
+import electro1 from '../../imagenes/electro1.png';
+import elecro from '../../imagenes/electro.png'
 
 const PagDtpo = ({ seccion }) => {
     return (
@@ -7,7 +11,11 @@ const PagDtpo = ({ seccion }) => {
             <div className="contenedor">
                 <div className="titulo">
                     <h2>{seccion}</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium repudiandae voluptates officiis optio iusto aliquid fugit eos illum facilis, hic quia sunt libero mollitia possimus distinctio alias quis sapiente iste!</p>
+                   <div className='contenedorPerfil'>
+                    <Dpto img ={elecro} titulo = 'Identificacion del titulo' src = '/Identificacion-del-titulo'/>
+                    <Dpto img ={electro1} titulo = 'Referencia al Perfil Profesional' src = '/Referencia-al-Perfil-Profesional' />
+                    <Dpto img ={alcance} titulo = 'Area Ocupacional' src = '/Area-Ocupacional'/>
+                   </div>
                 </div>
 
             </div>
